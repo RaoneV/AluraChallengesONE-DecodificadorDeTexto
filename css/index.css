@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #AFF;
+}
+
+header{
+    padding: 30px 15px;
+    margin: auto;
+    min-width: 40%;
+}
+
+header h1{
+    font-size: 5em;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+section{
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    background-color: #FFF;
+    border-radius: 0.5em;
+    width: 35%;
+    height: auto;
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    color: #FFF;
+    background-color: #A8F;
+}
+
+button:active{
+    background-color: #A8A;
+}
+
+.criptografar{
+    margin-top: 15px;
+}
+
+.box-mensagem-entrada button{
+    width: 178px;
+}
+
+textarea{
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+    margin: 3px 0;
+    width: 100%;
+    height: 140px;
+    display: block;
+    resize: none;
+}
+
+.entrada-mensagem{
+    margin-top: 30px;
+}
+
+.titulo-mensagem-saida{
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.copiar-mensagem{
+    margin-top: 30px;
+}
